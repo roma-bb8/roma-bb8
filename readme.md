@@ -12,10 +12,6 @@ I'm Platform Engineer, very with _vanilla_ software development ☺️
   * ☎️ VoIP software (Kamailio, FreeSWITCH, CGrates, Asterisk);
   * 🤖 AI software (Microsoft AutoGen, LangChain) there is a presentation: [https://youtu.be/0Q_-9HGiPWA](https://youtu.be/0Q_-9HGiPWA?si=ClPGqabpu1dffj5P);
   * 👨‍🎨 Software Architecture (Monolith, Microservices, SOA and etc);
-- 📫 How to reach me: 
-  * [jungle.romabb8@gmail.com](mailto:jungle.romabb8@gmail.com);
-  * [https://roma-bb8.github.io](https://roma-bb8.github.io).
-- 😄 Pronouns: He 😉
 - ⚡ Fun fact: When I am reading letters are jumping for me so I can read slow and write with mistakes (Dyslexia). 😅🙈🤭
 
 [![roadmap.sh](https://api.roadmap.sh/v1-badge/wide/657b81265145316d25058b9a?variant=dark)](https://roadmap.sh)
