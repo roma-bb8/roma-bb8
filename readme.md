@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I'm **Platform Engineer**, very with _vanilla software development_ ☺️
+I'm **Software Engineer**, very with _vanilla software development_ ☺️
 
 - 💻 Workplace: **MacBook Pro** + **JetBrains** + **Git** + **Docker** that's all, everything else is in containers! 😅
 - 🔭 I’m currently working in team on which works VoIP Software Solution for Call-centers. 👨‍💻
