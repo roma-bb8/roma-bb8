@@ -1,0 +1,16 @@
+name: Suggestion
+description: An idea to improve the profile README
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you change or add?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+    validations:
+      required: false

@@ -1,0 +1,40 @@
+name: Accessibility barrier
+description: Something in this profile is hard or impossible to read or use
+labels: ["accessibility"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for telling us. You do not need to share a diagnosis or personal details.
+  - type: textarea
+    id: task
+    attributes:
+      label: What were you trying to do, and what went wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Your setup
+      description: Operating system, browser, and assistive technology, if you use any.
+    validations:
+      required: false
+  - type: dropdown
+    id: severity
+    attributes:
+      label: How much does it affect you?
+      description: Maintainers can adjust this when triaging.
+      options:
+        - Cannot complete a core task
+        - Significant difficulty, but there is a workaround
+        - Annoying or inconsistent
+        - Minor
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Optional. Screenshots or recordings are welcome but not required.
+    validations:
+      required: false
