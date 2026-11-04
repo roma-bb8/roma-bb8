@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="image/banner.svg" width="656" alt="A field of flickering zeros and ones. They settle, and the digit 2 spells Hello, world! Then it repeats.">
-</div>
 
-<div align="center">
-  <sub>Banner · by <a href="https://roma-bb8.github.io/">@roma-bb8</a></sub>
+<img src="image/banner.svg" width="656" alt="A field of flickering zeros and ones. They settle, and the digit 2 spells Hello, world! Then it repeats.">
+
+<sub>Banner · by <a href="https://roma-bb8.github.io/">@roma-bb8</a></sub>
+
 </div>
 
 👋 Hi, I'm Roman, a software engineer from Dnipro, Ukraine, with 11+ years of experience. 🚀 I'm the Platform Owner
