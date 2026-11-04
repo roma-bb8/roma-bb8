@@ -1,10 +1,10 @@
-<p align="center">
+<div align="center">
   <img src="image/banner.svg" width="656" alt="A field of flickering zeros and ones. They settle, and the digit 2 spells Hello, world! Then it repeats.">
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <sub>Banner · by <a href="https://roma-bb8.github.io/">@roma-bb8</a></sub>
-</p>
+</div>
 
 👋 Hi, I'm Roman, a software engineer from Dnipro, Ukraine, with 11+ years of experience. 🚀 I'm the Platform Owner
 at [WAVEIX](https://gitlab.com/waveix) and a developer at [UPSTARS](https://www.upstars.com/). In my free time I write
