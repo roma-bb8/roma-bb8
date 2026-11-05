@@ -2,20 +2,20 @@
 
 <img src="image/banner.svg" width="656" alt="A field of flickering zeros and ones. They settle, and the digit 2 spells Hello, world! Then it repeats.">
 
-<sub>Banner · by <a href="https://baranenko.capital/">@roma-bb8</a></sub>
+<sub>Banner · by <a href="https://www.baranenko.capital/">@roma-bb8</a></sub>
 
 </div>
 
 👋 Hi, I'm Roman, a software engineer from Dnipro, Ukraine, with 11+ years of experience. 🚀 I'm the Platform Owner
 at [WAVEIX](https://gitlab.com/waveix) and a developer at [UPSTARS](https://www.upstars.com/). In my free time I write
-about software architecture and business on [my blog 📝](https://baranenko.capital/blog/).
+about software architecture and business on [my blog 📝](https://www.baranenko.capital/blog/).
 
 I'm a Software Engineer, very into vanilla software development ☺️
 
 - 👤 Roma Baranenko · roma-bb8 · he/him
 - 🏢 [@waveix](https://github.com/waveix)
 - 📍 Dnipro, Dnipropetrovsk Oblast', Ukraine (UTC +02:00)
-- 🌐 [baranenko.capital](https://baranenko.capital)
+- 🌐 [baranenko.capital](https://www.baranenko.capital)
 - 📺 YouTube: [@balance-channel](https://www.youtube.com/@balance-channel)
 - 📸 Instagram: [roma_bb8](https://www.instagram.com/roma_bb8/)
 - ✈️ Telegram: [roma_bb8](https://telegram.me/roma_bb8/)

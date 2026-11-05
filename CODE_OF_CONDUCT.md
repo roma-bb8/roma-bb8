@@ -6,4 +6,4 @@ In short: be respectful, be constructive, and no harassment or discrimination of
 
 ## Reporting
 
-Report unacceptable behavior privately through the contact options on [baranenko.capital](https://baranenko.capital). Please do not open a public issue for it.
+Report unacceptable behavior privately through the contact options on [baranenko.capital](https://www.baranenko.capital). Please do not open a public issue for it.
