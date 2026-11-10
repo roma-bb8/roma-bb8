@@ -6,14 +6,14 @@
 
 </div>
 
-👋 Hi, I'm Roman, a software engineer from Dnipro, Ukraine, with 11+ years of experience and a soft spot for vanilla
+👋 Hi, I'm Roman 😎, a software engineer from Dnipro, Ukraine, with 11+ years of experience and a soft spot for vanilla
 software development 🚀 I'm the Platform Owner at [WAVEIX](https://gitlab.com/waveix) and a developer
 at [UPSTARS](https://www.upstars.com/). In my free time I write about software architecture and business
-on [my blog 📝](https://www.baranenko.capital/blog/) 😎.
+on [my blog 📝](https://www.baranenko.capital/blog/).
 
 - 🌐 Website: [www.baranenko.capital](https://www.baranenko.capital)
 - 📺 YouTube: [@roma-bb8](https://www.youtube.com/@roma-bb8)
-- 📸 Tiktok: [roma_bb8_](https://www.tiktok.com/@roma_bb8_)
+- 🎵 Tiktok: [roma_bb8_](https://www.tiktok.com/@roma_bb8_)
 - 📸 Instagram: [roma_bb8](https://www.instagram.com/roma_bb8/)
 - ✈️ Telegram: [roma_bb8](https://telegram.me/roma_bb8/)
 - 🦊 GitLab: [roma-bb8](https://gitlab.com/roma-bb8)
