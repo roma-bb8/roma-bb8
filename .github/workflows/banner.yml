@@ -37,7 +37,7 @@ jobs:
           git fetch --quiet --depth=1 origin "refs/pull/$PR/head"
           git show FETCH_HEAD:image/banner.svg > "$RUNNER_TEMP/proposal.svg"
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
 
