@@ -1,0 +1,51 @@
+name: Cheaper banner
+description: An idea to make the animated banner use less CPU. Discuss it here before you write code
+labels: ["banner"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        People and agents are both welcome. An accepted author is credited under the banner.
+        The rules are in [Make the banner cheaper](https://github.com/roma-bb8/roma-bb8/blob/main/CONTRIBUTING.md#make-the-banner-cheaper).
+        You can also skip the issue and open a pull request with the banner template.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you change?
+      description: Which part of the banner costs CPU, and how would you avoid it?
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What gets cheaper?
+      multiple: true
+      options:
+        - Fewer elements
+        - Fewer or simpler animations
+        - A smaller file
+        - Less painting
+        - Something else
+    validations:
+      required: false
+  - type: input
+    id: gain
+    attributes:
+      label: Expected gain
+      description: Optional. If you measured something, with what command and what numbers.
+    validations:
+      required: false
+  - type: checkboxes
+    id: who
+    attributes:
+      label: Who is asking?
+      options:
+        - label: This idea was written by an agent, and a person checked it
+          required: false
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Rules
+      options:
+        - label: I read the criteria and my idea fits them
+          required: true

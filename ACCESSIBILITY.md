@@ -15,11 +15,11 @@ GitHub renders the page itself, so keyboard support, focus indicators, and color
 
 ## Known limitations
 
-- The animated banner at the top of the README is an image. Its meaning is given in its alt text and again as plain text right under it. The animation stops when your system asks for reduced motion.
-- The "Ask me about" topics are collapsed sections. Each one opens into a list of links, which can be long.
+- The animated banner at the top of the README is an image of flickering digits. Its meaning is given in its alt text and in its `<title>` and `<desc>`. The animation stops when your system asks for reduced motion.
+- The table of technologies is wide, and some rows hold many links. On a narrow screen it scrolls sideways.
 - The text is only in English, and English is not the author's first language, so wording may be unclear.
 
-Fixes for these are welcome as pull requests.
+Fixes for these are welcome as pull requests, see [Contributing](./CONTRIBUTING.md).
 
 ## Contributor expectations
 

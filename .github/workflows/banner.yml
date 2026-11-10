@@ -1,0 +1,50 @@
+# Checks a proposed banner in a pull request with scripts/benchmark.py and shows the result on the run page.
+#
+# The pull request is untrusted, so the job takes everything from the base branch (the script and the reference
+# banner) and only the proposed image/banner.svg from the pull request. The banner is opened in a browser with
+# JavaScript and network switched off. The job has no secrets and a read-only token.
+#
+# CPU time on a shared runner is noisy: the result is a first look, not the verdict.
+name: Banner
+
+on:
+  pull_request:
+    paths: [image/banner.svg]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: banner-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out the base branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          persist-credentials: false
+
+      - name: Take the proposed banner from the pull request
+        env:
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          cp image/banner.svg "$RUNNER_TEMP/reference.svg"
+          git fetch --quiet --depth=1 origin "refs/pull/$PR/head"
+          git show FETCH_HEAD:image/banner.svg > "$RUNNER_TEMP/proposal.svg"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install the browser driver
+        run: pip install playwright pillow
+
+      - name: Run the check
+        run: |
+          python3 scripts/benchmark.py --check --markdown "$GITHUB_STEP_SUMMARY" \
+            "$RUNNER_TEMP/reference.svg" "$RUNNER_TEMP/proposal.svg"
