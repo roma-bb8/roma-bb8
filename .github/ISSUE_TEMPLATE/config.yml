@@ -1,9 +1,9 @@
 # Only the forms in this folder can be used; a blank issue is not offered.
 blank_issues_enabled: false
 contact_links:
-  - name: Security problem
-    url: https://github.com/roma-bb8/roma-bb8/security/advisories/new
-    about: Report security issues privately, not as a public issue.
-  - name: Cheaper banner (pull request)
-    url: https://github.com/roma-bb8/roma-bb8/compare?quick_pull=1&template=banner.md
-    about: Already have a banner that passes the check? Open a pull request with the banner template.
+    - name: Security problem
+      url: https://github.com/roma-bb8/roma-bb8/security/advisories/new
+      about: Report security issues privately, not as a public issue.
+    - name: Cheaper banner (pull request)
+      url: https://github.com/roma-bb8/roma-bb8/compare?quick_pull=1&template=banner.md
+      about: Already have a banner that passes the check? Open a pull request with the banner template.

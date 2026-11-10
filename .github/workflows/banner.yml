@@ -8,43 +8,43 @@
 name: Banner
 
 on:
-  pull_request:
-    paths: [image/banner.svg]
+    pull_request:
+        paths: [image/banner.svg]
 
 permissions:
-  contents: read
+    contents: read
 
 concurrency:
-  group: banner-${{ github.event.pull_request.number }}
-  cancel-in-progress: true
+    group: banner-${{ github.event.pull_request.number }}
+    cancel-in-progress: true
 
 jobs:
-  check:
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
-    steps:
-      - name: Check out the base branch
-        uses: actions/checkout@v7
-        with:
-          ref: ${{ github.event.pull_request.base.sha }}
-          persist-credentials: false
+    check:
+        runs-on: ubuntu-latest
+        timeout-minutes: 15
+        steps:
+            - name: Check out the base branch
+              uses: actions/checkout@v7
+              with:
+                  ref: ${{ github.event.pull_request.base.sha }}
+                  persist-credentials: false
 
-      - name: Take the proposed banner from the pull request
-        env:
-          PR: ${{ github.event.pull_request.number }}
-        run: |
-          cp image/banner.svg "$RUNNER_TEMP/reference.svg"
-          git fetch --quiet --depth=1 origin "refs/pull/$PR/head"
-          git show FETCH_HEAD:image/banner.svg > "$RUNNER_TEMP/proposal.svg"
+            - name: Take the proposed banner from the pull request
+              env:
+                  PR: ${{ github.event.pull_request.number }}
+              run: |
+                  cp image/banner.svg "$RUNNER_TEMP/reference.svg"
+                  git fetch --quiet --depth=1 origin "refs/pull/$PR/head"
+                  git show FETCH_HEAD:image/banner.svg > "$RUNNER_TEMP/proposal.svg"
 
-      - uses: actions/setup-python@v7
-        with:
-          python-version: "3.12"
+            - uses: actions/setup-python@v7
+              with:
+                  python-version: "3.12"
 
-      - name: Install the browser driver
-        run: pip install playwright pillow
+            - name: Install the browser driver
+              run: pip install playwright pillow
 
-      - name: Run the check
-        run: |
-          python3 scripts/benchmark.py --check --markdown "$GITHUB_STEP_SUMMARY" \
-            "$RUNNER_TEMP/reference.svg" "$RUNNER_TEMP/proposal.svg"
+            - name: Run the check
+              run: |
+                  python3 scripts/benchmark.py --check --markdown "$GITHUB_STEP_SUMMARY" \
+                    "$RUNNER_TEMP/reference.svg" "$RUNNER_TEMP/proposal.svg"

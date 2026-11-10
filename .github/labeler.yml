@@ -1,7 +1,7 @@
 # Rules for .github/workflows/label.yml: label name, then the files that earn it.
 banner:
-  - changed-files:
-      - any-glob-to-any-file: [image/**, scripts/**]
+    - changed-files:
+          - any-glob-to-any-file: [image/**, scripts/**]
 documentation:
-  - changed-files:
-      - any-glob-to-any-file: ["*.md", .github/**/*.md]
+    - changed-files:
+          - any-glob-to-any-file: ["*.md", .github/**/*.md]

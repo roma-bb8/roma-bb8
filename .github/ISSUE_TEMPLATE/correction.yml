@@ -2,16 +2,16 @@ name: Correction
 description: A typo, a broken link, or a wrong fact in the README
 labels: ["documentation"]
 body:
-  - type: textarea
-    id: problem
-    attributes:
-      label: What is wrong?
-      description: Quote the text or give the link.
-    validations:
-      required: true
-  - type: textarea
-    id: fix
-    attributes:
-      label: Suggested fix
-    validations:
-      required: false
+    - type: textarea
+      id: problem
+      attributes:
+          label: What is wrong?
+          description: Quote the text or give the link.
+      validations:
+          required: true
+    - type: textarea
+      id: fix
+      attributes:
+          label: Suggested fix
+      validations:
+          required: false
