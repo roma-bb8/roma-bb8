@@ -15,7 +15,7 @@ on [my blog 📝](https://www.baranenko.capital/blog/).
 - 📺 YouTube: [@roma-bb8](https://www.youtube.com/@roma-bb8)
 - 🎵 Tiktok: [roma_bb8_](https://www.tiktok.com/@roma_bb8_)
 - 📸 Instagram: [roma_bb8](https://www.instagram.com/roma_bb8/)
-- ✈️ Telegram: [roma_bb8](https://telegram.me/roma_bb8/)
+- ✈️ Telegram: [BARANENKO Capital | Global](https://t.me/baranenko_capital) · [Україна](https://t.me/baranenko_capital_uk)
 - 🦊 GitLab: [roma-bb8](https://gitlab.com/roma-bb8)
 - 🐙 GitHub: [roma-bb8](https://github.com/roma-bb8)
 - 🏷️ Also known as `romanbcap`: that's how you may know me across platforms
