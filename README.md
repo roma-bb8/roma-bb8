@@ -12,7 +12,7 @@ at [UPSTARS](https://www.upstars.com/). In my free time I write about software a
 on [my blog 📝](https://www.baranenko.capital/blog/?utm_source=github&utm_medium=referral&utm_campaign=profile-readme).
 
 - 🌐 Website: [www.baranenko.capital](https://www.baranenko.capital/?utm_source=github&utm_medium=referral&utm_campaign=profile-readme)
-- 📺 YouTube: [@roma-bb8](https://www.youtube.com/@roma-bb8)
+- 📺 YouTube: [@baranenko-capital](https://www.youtube.com/@baranenko-capital)
 - 🎵 Tiktok: [roma_bb8_](https://www.tiktok.com/@roma_bb8_)
 - 📸 Instagram: [roma_bb8](https://www.instagram.com/roma_bb8/)
 - ✈️ Telegram: [BARANENKO Capital | Global](https://t.me/baranenko_capital) · [Україна](https://t.me/baranenko_capital_uk)
