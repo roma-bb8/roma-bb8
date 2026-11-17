@@ -1,8 +1,14 @@
-# Keeps the actions used in .github/workflows up to date.
+# Keeps the actions used in .github/workflows (pinned to a commit, the version is in the comment) and the Python packages of the banner check up to date.
 version: 2
 updates:
     - package-ecosystem: github-actions
       directory: /
+      schedule:
+          interval: monthly
+      commit-message:
+          prefix: "chore(deps)"
+    - package-ecosystem: pip
+      directory: /scripts
       schedule:
           interval: monthly
       commit-message:

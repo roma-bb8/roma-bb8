@@ -1,0 +1,4 @@
+# The Python packages of the banner check (scripts/benchmark.py), pinned to exact versions. The GitHub workflow and the GitLab pipeline
+# install them with `pip install -r scripts/requirements.txt`; Dependabot proposes new versions on GitHub. Google Chrome is needed too.
+playwright==1.65.2
+pillow==13.0.0

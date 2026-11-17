@@ -24,7 +24,7 @@ jobs:
         timeout-minutes: 15
         steps:
             - name: Check out the base branch
-              uses: actions/checkout@v7
+              uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
               with:
                   ref: ${{ github.event.pull_request.base.sha }}
                   persist-credentials: false
@@ -37,12 +37,12 @@ jobs:
                   git fetch --quiet --depth=1 origin "refs/pull/$PR/head"
                   git show FETCH_HEAD:image/banner.svg > "$RUNNER_TEMP/proposal.svg"
 
-            - uses: actions/setup-python@v7
+            - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
               with:
                   python-version: "3.12"
 
             - name: Install the browser driver
-              run: pip install playwright pillow
+              run: pip install -r scripts/requirements.txt
 
             - name: Run the check
               run: |

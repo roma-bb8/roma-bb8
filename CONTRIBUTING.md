@@ -41,7 +41,7 @@ The numbers live in `SPEC` in [`scripts/benchmark.py`](./scripts/benchmark.py). 
 Save a copy of the current banner as the reference, change the banner, and compare:
 
 ```sh
-pip install playwright pillow          # and Google Chrome
+pip install -r scripts/requirements.txt   # playwright and pillow, pinned; and Google Chrome
 cp image/banner.svg /tmp/reference.svg
 python3 scripts/gen_banner.py          # or your own generator
 python3 scripts/benchmark.py --check /tmp/reference.svg image/banner.svg

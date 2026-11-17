@@ -3,8 +3,8 @@
 
     python3 scripts/benchmark.py                           measure image/banner.svg alone
     python3 scripts/benchmark.py old.svg new.svg           size and structure              (no dependencies)
-    python3 scripts/benchmark.py --cpu old.svg new.svg     + CPU time in Chrome            (pip install playwright, Chrome)
-    python3 scripts/benchmark.py --check old.svg new.svg   + the acceptance criteria       (pip install playwright pillow, Chrome)
+    python3 scripts/benchmark.py --cpu old.svg new.svg     + CPU time in Chrome            (pip install -r scripts/requirements.txt, Chrome)
+    python3 scripts/benchmark.py --check old.svg new.svg   + the acceptance criteria       (pip install -r scripts/requirements.txt, Chrome)
 
 The first file is the reference, normally the current image/banner.svg. Every other file is compared with it.
 The exit code is 1 if any file fails a check, so the command works as a CI step.
@@ -331,7 +331,7 @@ def main():
             try:
                 m.update(cpu_metrics(f, args.seconds))
             except ImportError:
-                sys.exit("--cpu needs playwright: pip install playwright (and Google Chrome)")
+                sys.exit("--cpu needs playwright: pip install -r scripts/requirements.txt (and Google Chrome)")
         columns.append((f.name, m))
     table(columns, list(columns[0][1]))
 
@@ -341,7 +341,7 @@ def main():
         try:
             import PIL  # noqa: F401
         except ImportError:
-            sys.exit("--check needs pillow: pip install pillow playwright (and Google Chrome)")
+            sys.exit("--check needs pillow: pip install -r scripts/requirements.txt (and Google Chrome)")
         ref_path, ref = args.files[0], columns[0][1]
         for path, (name, m) in zip(args.files, columns):
             print(f"\n{name}")
